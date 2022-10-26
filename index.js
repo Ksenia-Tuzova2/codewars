@@ -5,6 +5,8 @@ function makeNegative(num) {
 		return -num
 	} else if (num == 0) return num
 }
+//проверка
+//other checking
 
 //переверни строку
 
@@ -28,4 +30,12 @@ function even_or_odd(number) {
 	}
 }
 
-function noSpace(x) { return x.split(' ').join('') }
+function noSpace(x) { return x.split(' ').join('') }\
+
+
+//new katas
+
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i*2;
+}
