@@ -39,3 +39,15 @@ function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i*2;
 }
+
+
+//back
+
+function solution(start, finish) 
+{
+  if(0<start<finish){
+    let number=(finish-start)/2
+    return number
+  }
+  //Mew
+}
